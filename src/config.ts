@@ -3,7 +3,10 @@
  */
 
 // API base URL
-export const API_URL: string = import.meta.env.VITE_API_URL || 'http://localhost:3000/api/v1';
+export const API_URL: string = import.meta.env.VITE_API_URL || 'http://localhost:5000/api/v1';
+
+// Socket URL
+export const SOCKET_URL: string = import.meta.env.VITE_SOCKET_URL || 'http://localhost:5000';
 
 // File upload URL
 export const UPLOAD_URL: string = `${API_URL}/upload`;
@@ -20,6 +23,7 @@ export const ALLOWED_DOCUMENT_TYPES: string[] = ['application/pdf', 'application
 // Default export for easier imports
 const config = {
   apiBaseUrl: API_URL,
+  socketUrl: SOCKET_URL,
   uploadUrl: UPLOAD_URL,
   maxFileSize: MAX_FILE_SIZE,
   allowedImageTypes: ALLOWED_IMAGE_TYPES,
