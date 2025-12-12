@@ -1,0 +1,10 @@
+/* Progress component styles */
+.progress-bar {
+  width: 0%;
+  transition: width 0.3s ease-in-out;
+}
+
+/* Use attribute selector to set width based on data attribute */
+.progress-bar[data-progress-width] {
+  width: calc(attr(data-progress-width) * 1%);
+}

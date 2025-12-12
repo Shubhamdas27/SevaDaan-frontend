@@ -1,0 +1,4 @@
+/* Progress bar styles for NgoDonatePage */
+.progressBar {
+  width: calc(var(--progress-width, 0) * 1%);
+}

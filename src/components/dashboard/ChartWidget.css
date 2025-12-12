@@ -1,0 +1,99 @@
+/* Chart Widget Styles */
+.chart-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.chart-legend-color {
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 0.125rem;
+  flex-shrink: 0;
+}
+
+.chart-legend-color-circle {
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.chart-legend-text {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.chart-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.chart-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.chart-svg-container {
+  flex: 1;
+  position: relative;
+}
+
+.chart-svg {
+  width: 100%;
+  height: 100%;
+}
+
+.pie-chart-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pie-chart-content {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.pie-chart-svg {
+  width: 12rem;
+  height: 12rem;
+}
+
+.pie-chart-legend {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.doughnut-chart-container {
+  position: relative;
+}
+
+.doughnut-chart-center {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.doughnut-chart-center-content {
+  text-align: center;
+}
+
+.doughnut-chart-total {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.doughnut-chart-label {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
